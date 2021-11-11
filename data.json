@@ -1,0 +1,273 @@
+{
+    "normal":{
+        "reaction":"😀",
+        "immunes": [
+            "ghost"
+        ],
+        "weaknesses": [
+            "rock",
+            "steel"
+        ],
+        "strengths": []
+    },
+    "fire":{
+        "reaction":"🔥",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "water",
+            "rock",
+            "dragon"
+        ],
+        "strengths": [
+            "grass",
+            "ice",
+            "bug",
+            "steel"
+        ]
+    },
+    "water":{
+        "reaction":"🌊",
+        "immunes": [],
+        "weaknesses": [
+            "water",
+            "grass",
+            "dragon"
+        ],
+        "strengths": [
+            "fire",
+            "ground",
+            "rock"
+        ]
+    },
+    "electric":{
+        "reaction":"🔋",
+        "immunes": [
+            "ground"
+        ],
+        "weaknesses": [
+            "electric",
+            "grass",
+            "dragon"
+        ],
+        "strengths": [
+            "water",
+            "flying"
+        ]
+    },
+    "grass":{
+        "reaction":"🌿",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "grass",
+            "poison",
+            "flying",
+            "bug",
+            "dragon",
+            "steel"
+        ],
+        "strengths": [
+            "water",
+            "ground",
+            "rock"
+        ]
+    },
+    "ice":{
+        "reaction":"🧊",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "water",
+            "ice",
+            "steel"
+        ],
+        "strengths": [
+            "grass",
+            "ground",
+            "flying",
+            "dragon"
+        ]
+    },
+    "fighting":{
+        "reaction":"👊🏻",
+        "immunes": [
+            "ghost"
+        ],
+        "weaknesses": [
+            "poison",
+            "flying",
+            "psychic",
+            "bug",
+            "fairy"
+        ],
+        "strengths": [
+            "normal",
+            "ice",
+            "rock",
+            "dark",
+            "steel"
+        ]
+    },
+    "poison":{
+        "reaction":"☠️",
+        "immunes": [
+            "steel"
+        ],
+        "weaknesses": [
+            "poison",
+            "ground",
+            "rock",
+            "ghost"
+        ],
+        "strengths": [
+            "grass",
+            "fairy"
+        ]
+    },
+    "ground":{
+        "reaction":"⛱️",
+        "immunes": [
+            "flying"
+        ],
+        "weaknesses": [
+            "grass",
+            "bug"
+        ],
+        "strengths": [
+            "fire",
+            "electric",
+            "poison",
+            "rock",
+            "steel"
+        ]
+    },
+    "flying":{
+        "reaction":"🐔",
+        "immunes": [],
+        "weaknesses": [
+            "electric",
+            "rock",
+            "steel"
+        ],
+        "strengths": [
+            "grass",
+            "fighting",
+            "bug"
+        ]
+    },
+    "psychic":{
+        "reaction":"👁️",
+        "immunes": [
+            "dark"
+        ],
+        "weaknesses": [
+            "psychic",
+            "steel"
+        ],
+        "strengths": [
+            "fighting",
+            "poison"
+        ]
+    },
+    "bug":{
+        "reaction":"🐛",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "fighting",
+            "poison",
+            "flying",
+            "ghost",
+            "steel",
+            "fairy"
+        ],
+        "strengths": [
+            "grass",
+            "psychic",
+            "dark"
+        ]
+    },
+    "rock":{
+        "reaction":"⛰️",
+        "immunes": [],
+        "weaknesses": [
+            "fighting",
+            "ground",
+            "steel"
+        ],
+        "strengths": [
+            "fire",
+            "ice",
+            "flying",
+            "bug"
+        ]
+    },
+    "ghost":{
+        "reaction":"👻",
+        "immunes": [
+            "normal"
+        ],
+        "weaknesses": [
+            "dark"
+        ],
+        "strengths": [
+            "psychic",
+            "ghost"
+        ]
+    },
+    "dragon":{
+        "reaction":"🐉",
+        "immunes": [
+            "fairy"
+        ],
+        "weaknesses": [
+            "steel"
+        ],
+        "strengths": [
+            "dragon"
+        ]
+    },
+    "dark":{
+        "reaction":"👿",
+        "immunes": [],
+        "weaknesses": [
+            "fighting",
+            "dark",
+            "fairy"
+        ],
+        "strengths": [
+            "psychic",
+            "ghost"
+        ]
+    },
+    "steel":{
+        "reaction":"⚙️",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "water",
+            "electric",
+            "steel"
+        ],
+        "strengths": [
+            "ice",
+            "rock",
+            "fairy"
+        ]
+    },
+    "fairy":{
+        "reaction":"🧚",
+        "immunes": [],
+        "weaknesses": [
+            "fire",
+            "poison",
+            "steel"
+        ],
+        "strengths": [
+            "fighting",
+            "dragon",
+            "dark"
+        ]
+    }
+}
